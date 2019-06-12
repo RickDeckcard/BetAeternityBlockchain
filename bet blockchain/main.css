@@ -87,3 +87,8 @@ footer{
   text-align: center;
 
 }
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: green;
+  border-radius: 10px;
+}
