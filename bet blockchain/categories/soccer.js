@@ -28,7 +28,7 @@ const contractSource = `
         let updatedMemes = state.memes{ [index].voteCount = updatedVoteCount }
         put(state{ memes = updatedMemes })
 `;
-const contractAddress ='ct_2jbjJUHaPTbcxRLz1YwKpKF4EuM958M9c7LuNtLA1AUPPoXMoP';
+const contractAddress ='ct_vwkanJz5b6BGNtZRfAR4UnXc3u7XmH4uDg1BZZzsowwFMbQsG';
 var client = null;
 var memeArray = [];
 var memesLength = 0;
